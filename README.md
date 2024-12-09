@@ -14,7 +14,6 @@
   - MovieLens 데이터셋을 활용하여 사용자와 영화 간의 잠재 요인을 학습.
   - 모든 사용자-영화 조합에 대해 예측 평점을 계산하고 `predicted_ratings.csv` 파일로 저장.
 
----
 
 ### 2. `LatentFactorModel.py`
 - **목적**: 
@@ -23,7 +22,6 @@
   - `predicted_ratings.csv`를 로드하여 예측된 평점 데이터를 활용.
   - 사용자가 아직 평가하지 않은 영화 중 높은 평점을 받은 영화를 추천.
 
----
 
 ### 3. `EvaluationCriterion_LFM.py`
 - **목적**: 
